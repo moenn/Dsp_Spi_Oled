@@ -1,11 +1,11 @@
-### Dsp_Spi_Oled 库
+# Dsp_Spi_Oled 库
 这个库可让你使用 TI 公司的 DSP 芯片通过串行通信方式控制 0.96英寸 128\*64 OLED 屏幕的**英文**显示。 程序中未使用 DSP 的 SPI 模块，而是采用 GPIO 口产生下降沿来送出串行数据的方式。
 
 测试环境: ccsv8, tms320f28335    
 
 
 
-### 如何配置
+# 如何配置
 ##### 硬件连接
 
 |OLED|DSp|
@@ -51,5 +51,5 @@
 
 ![项目目录](https://raw.githubusercontent.com/moenn/Dsp_Spi_Oled/master/project_view.png)
 
-### 使用 
+# 使用 
 编译下载，观察 OLED 是否显示。 `main.c` 中包含7个示例函数，通过更改`#define EXAMPLE_SELECT 1` 中的宏值(1-7)，来激活相应函数。
