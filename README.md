@@ -3,7 +3,7 @@
 
 测试环境: ccsv8, tms320f28335    
 
---- 
+
 
 ### 如何配置
 ##### 硬件连接
@@ -18,7 +18,6 @@
 
 当然你的 OLED 还要接上电源。如果你使用的OLED没有 CS 片选引脚，那么不接。如果你想更改用于连线的 GPIO 引脚，那么替换 `my_oled.c` 中相应引脚的宏定义。 
 
----
 
 ##### 软件配置
 1. 安装[c2000ware](http://www.ti.com/tool/C2000WARE)。
@@ -52,6 +51,5 @@
 
 ![项目目录](https://raw.githubusercontent.com/moenn/Dsp_Spi_Oled/master/project_view.png)
 
----
 ### 使用 
 编译下载，观察 OLED 是否显示。 `main.c` 中包含7个示例函数，通过更改`#define EXAMPLE_SELECT 1` 中的宏值(1-7)，来激活相应函数。
