@@ -53,3 +53,7 @@
 
 # 使用 
 编译下载，观察 OLED 是否显示。 `main.c` 中包含7个示例函数，通过更改`#define EXAMPLE_SELECT 1` 中的宏值(1-7)，来激活相应函数。
+
+#### 注释显示乱码
+如果注释显示乱码，更改以下设置。
+Preferences => General => Workspace => Text file encoding: other(utf-8)。
